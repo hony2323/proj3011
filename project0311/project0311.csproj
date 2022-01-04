@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="documents3.aspx" />
     <Content Include="documents2.aspx" />
     <Content Include="Web.config" />
     <Content Include="form1.aspx" />
@@ -77,6 +78,13 @@
     <Content Include="documents1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="documents3.aspx.cs">
+      <DependentUpon>documents3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="documents3.aspx.designer.cs">
+      <DependentUpon>documents3.aspx</DependentUpon>
+    </Compile>
     <Compile Include="documents2.aspx.cs">
       <DependentUpon>documents2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

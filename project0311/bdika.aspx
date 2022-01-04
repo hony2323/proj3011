@@ -52,7 +52,7 @@
       
         <div class="col-md-12 order-md-1">
           
-          <form class="needs-validation" novalidate dir="rtl">              
+          <form runat="server" class="needs-validation" novalidate dir="rtl">              
               
              <h1 style="margin-left:30%">
               בקשתך בבדיקה...
@@ -62,8 +62,8 @@
             <hr class="mb-4">
               <div style="display:flex;justify-content:space-evenly">
 
-            <button style="width:20vw" class="btn btn-primary btn-lg btn-block" type="submit">ראה סטטוס בקשה</button>
-            <button style="width:20vw" class="btn btn-primary btn-lg btn-block" type="submit">חזור לדף הראשי</button>
+                  <asp:Button Style="width: 20vw" runat="server" class="btn btn-primary btn-lg btn-block" type="submit" Text="ראה סטטוס בקשה" />
+                  <asp:Button Style="width: 20vw" runat="server" class="btn btn-primary btn-lg btn-block" type="submit" Text="חזור לדף הראשי" />
               </div>
           </form>
         </div>

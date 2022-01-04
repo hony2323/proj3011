@@ -18,8 +18,8 @@
         body {
             background: url('https://www.קנאביס.com/wp-content/uploads/2011/10/LNS_15-04-2011_EGN_03_dope-leaf-LNS1503_t325.jpg') fixed;
             background-size: cover;
-        }
 
+        }
         *[role="form"] {
             max-width: 530px;
             padding: 15px;

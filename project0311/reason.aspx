@@ -14,6 +14,20 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
     <!------ Include the above in your HEAD tag ---------->
+    <style>
+        body {
+            background: url('https://www.קנאביס.com/wp-content/uploads/2011/10/LNS_15-04-2011_EGN_03_dope-leaf-LNS1503_t325.jpg') fixed;
+            background-size: cover;
+            display:flex;
+            justify-content:center;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.51);
+            width: 50vw;
+            position:center;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" style="display: flex; flex-direction: column; align-items: center" runat="server">

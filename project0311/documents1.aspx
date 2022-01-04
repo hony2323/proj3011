@@ -1,5 +1,5 @@
 ﻿<!doctype html>
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="documents1.aspx.cs" Inherits="project0311.WebForm4" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="documents1.aspx.cs" Inherits="project0311.documents1" %>
 
 
 <html lang="en">
@@ -44,7 +44,16 @@
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
-.lh-condensed { line-height: 1.25; }</style>
+.lh-condensed { line-height: 1.25; }
+
+        .btn {
+            width: 40vw;
+            border:1px solid #2855be;
+            cursor:pointer;
+
+        }
+
+    </style>
   </head>
 
   <body class="bg-light" runat="server">
@@ -120,10 +129,7 @@
             <hr class="mb-4">
 
             <h4 class="mb-3">תנאי שירות כלליים</h4>
-			  
-
-              <button></button>
-         
+			           
             <div class="row">
 
               <div class="col-lg-12">
@@ -140,7 +146,7 @@
             </div>
         
             <hr class="mb-4">
-              <asp:Button runat="server" OnClick="SubmitBtn_Click" />
+              <asp:Button runat="server"  OnClick="Do_som" Text="שלח" style="width:200px"  CssClass="btn-outline-primary"/>
           </form>
         </div>
       </div>
@@ -148,13 +154,5 @@
     
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    
-     
-    <script>
- 
-    </script>
   </body>
 </html>
