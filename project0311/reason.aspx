@@ -33,7 +33,7 @@
     <form id="form1" style="display: flex; flex-direction: column; align-items: center" runat="server">
         <h2 style="color: black; text-align: center;margin-top:5%">בחרו את הפעולה הרצויה ואת הסיבה הרלוונטית עבורכם לרישיון לקנביס
         </h2>
-        <br />
+        <br /> <br />
         <div style="display: flex; flex-direction: row-reverse; width: 100%;margin-top:5%; justify-content: center">
             <b style="margin: 0.5% 10% 0 1%; font-size: large">בחר פעולה</b>
 
@@ -60,9 +60,9 @@
                     <asp:ListItem>פעולה אחרת</asp:ListItem>
                 </asp:DropDownList>
             </div>
-            <br />
-            <br />
-            <br />
+            <br /> <br />
+            <br /> <br />
+            <br /> <br />
 
             <b style="margin: 0.5% 10% 0 1%; font-size: large">בחר סיבה</b>
             <div class="dropdown">

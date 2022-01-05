@@ -13,5 +13,12 @@ namespace project0311
         {
 
         }
+
+        protected void BtnContinue(object sender, EventArgs e)
+        {
+            Response.Redirect("details.aspx");
+        }
+
+
     }
 }

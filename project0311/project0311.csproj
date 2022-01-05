@@ -67,11 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="documents3.aspx" />
-    <Content Include="documents2.aspx" />
     <Content Include="home.aspx" />
     <Content Include="Web.config" />
-    <Content Include="detials.aspx" />
+    <Content Include="details.aspx" />
     <Content Include="bdika.aspx" />
     <Content Include="pin.aspx" />
     <Content Include="reason.aspx" />
@@ -79,20 +77,6 @@
     <Content Include="documents1.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="documents3.aspx.cs">
-      <DependentUpon>documents3.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="documents3.aspx.designer.cs">
-      <DependentUpon>documents3.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="documents2.aspx.cs">
-      <DependentUpon>documents2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="documents2.aspx.designer.cs">
-      <DependentUpon>documents2.aspx</DependentUpon>
-    </Compile>
     <Compile Include="home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -101,12 +85,12 @@
       <DependentUpon>home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="detials.aspx.cs">
-      <DependentUpon>detials.aspx</DependentUpon>
+    <Compile Include="details.aspx.cs">
+      <DependentUpon>details.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="detials.aspx.designer.cs">
-      <DependentUpon>detials.aspx</DependentUpon>
+    <Compile Include="details.aspx.designer.cs">
+      <DependentUpon>details.aspx</DependentUpon>
     </Compile>
     <Compile Include="bdika.aspx.cs">
       <DependentUpon>bdika.aspx</DependentUpon>
