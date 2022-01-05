@@ -1,5 +1,7 @@
 ﻿<!doctype html>
-<html lang="en">
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="bdika.aspx.cs" Inherits="project0311.bdika"%>
+
+<html lang="en" >
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -62,8 +64,8 @@
             <hr class="mb-4">
               <div style="display:flex;justify-content:space-evenly">
 
-                  <asp:Button Style="width: 20vw" runat="server" class="btn btn-primary btn-lg btn-block" type="submit" Text="ראה סטטוס בקשה" />
-                  <asp:Button Style="width: 20vw" runat="server" class="btn btn-primary btn-lg btn-block" type="submit" Text="חזור לדף הראשי" />
+                  <asp:Button Style="width: 20vw" OnClick="ApplicationStatus" runat="server" class="btn btn-primary btn-lg btn-block" type="submit" Text="ראה סטטוס בקשה" />
+                  <asp:Button Style="width: 20vw" OnClick="ReturnHome" runat="server" class="btn btn-primary btn-lg btn-block" type="submit" Text="חזור לדף הראשי" />
               </div>
           </form>
         </div>

@@ -59,6 +59,12 @@
 
         }
 
+        .nm-3 {
+            width:80vw;
+        }
+        .file{
+            width: 400px;
+        }
 
 
     </style>

@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace project0311
 {
-    public partial class WebForm2 : System.Web.UI.Page
+    public partial class bdika : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -20,8 +20,9 @@ namespace project0311
         }
         protected void ApplicationStatus(object sender, EventArgs e)
         {
-
+            Response.Redirect("status.aspx");
         }
+
 
 
     }

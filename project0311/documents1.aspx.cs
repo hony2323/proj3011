@@ -10,9 +10,19 @@ namespace project0311
 {
     public partial class documents1 : System.Web.UI.Page
     {
-        private Dictionary<string, List<string>> allOptions = new Dictionary<string, List<string>> {
-            { "מחלה ממארת", new List<string>(){"1", "2", "243" } }
+        private Dictionary<string, List<string>> allDescriptions = new Dictionary<string, List<string>> {
+            { "מחלה ממארת", new List<string>(){ "סיכום טיפול אחרון במכון אונקולוגי", "סיכום מידע רפואי" } }
+            ,{ "מחלות מעי דלקתיות", new List<string>(){ "סיכומי ביקור במכון גסטרו", "סיכום מידע רפואי", "דוח רכש תרופות" } }
+
+
+
+            , { "רישיון חדש", new List<string>(){ "טופס הסכמה לקבלת שירות – טיפול בהוצאת רישיון לשימוש בקנביס רפואי", "דף מידע והסבר – טיפול בהנפקת רישיון לשימוש בקנביס - לא לחתימה", "בקשת הצטרפות לשירות צפייה בתוצאות אינטרנט" } }
+            , { "חידוש רישיון", new List<string>(){  "טופס הסכמה לקבלת שירות – טיפול בהוצאת רישיון לשימוש בקנביס רפואי", "דף מידע והסבר – טיפול בהנפקת רישיון לשימוש בקנביס - לא לחתימה", "בקשת הצטרפות לשירות צפייה בתוצאות אינטרנט" } }
+
         };
+        //private Dictionary<string, List<string>> actionDescriptions = new Dictionary<string, List<string>> {
+        //    { "רישיון חדש", new List<string>(){ "טופס הסכמה לקבלת שירות – טיפול בהוצאת רישיון לשימוש בקנביס רפואי", "דף מידע והסבר – טיפול בהנפקת רישיון לשימוש בקנביס - לא לחתימה", "בקשת הצטרפות לשירות צפייה בתוצאות אינטרנט" } }
+        //};
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["action"] == null && Session["reason"] == null)
@@ -28,10 +38,16 @@ namespace project0311
             Action.Value = Session["action"].ToString();
             Reason.Value = Session["reason"].ToString();
 
-            foreach (var fileDiscription in allOptions[Reason.Value])
+            foreach (var fileDiscription in allDescriptions[Reason.Value])
             {
                 theHtml += getFullDivExample(file_id + counter, fileDiscription);
-                 
+
+                counter++;
+            }
+            foreach (var fileDiscription in allDescriptions[Action.Value])
+            {
+                theHtml += getFullDivExample(file_id + counter, fileDiscription);
+
                 counter++;
             }
 
