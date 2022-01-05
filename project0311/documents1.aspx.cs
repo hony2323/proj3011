@@ -11,7 +11,15 @@ namespace project0311
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["action"] == null && Session["reason"] == null)
+            {
+                Action.Value = "";
+                Reason.Value = "";
+                return;
+            }    
 
+            Action.Value = Session["action"].ToString();
+            Reason.Value = Session["reason"].ToString();
         }
 
         public void SubmitBtn_Click(object sender, EventArgs e)

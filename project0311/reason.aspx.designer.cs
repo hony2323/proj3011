@@ -24,21 +24,21 @@ namespace project0311
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// dropdownMenuButton control.
+        /// DropDownList_Action control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList dropdownMenuButton;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList_Action;
 
         /// <summary>
-        /// DropDownList1 control.
+        /// DropDownList_Reason control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList_Reason;
     }
 }

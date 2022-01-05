@@ -51,7 +51,7 @@
      <a class="dropdown-item" href="#">שינוי מינון</a>
     <a class="dropdown-item" href="#">פעולה אחרת</a>
   </div>--%>
-                <asp:DropDownList Style="margin-left: auto; color: white" class="btn btn-secondary dropdown-toggle" type="button" ID="dropdownMenuButton"
+                <asp:DropDownList Style="margin-left: auto; color: white" class="btn btn-secondary dropdown-toggle" type="button" ID="DropDownList_Action"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" runat="server">
                     <asp:ListItem>רישיון חדש</asp:ListItem>
                     <asp:ListItem>חידוש רישיון</asp:ListItem>
@@ -66,7 +66,7 @@
 
             <b style="margin: 0.5% 10% 0 1%; font-size: large">בחר סיבה</b>
             <div class="dropdown">
-                <asp:DropDownList Style="margin-left: auto; color: white" class="btn btn-secondary dropdown-toggle" type="button" ID="DropDownList1"
+                <asp:DropDownList Style="margin-left: auto; color: white" class="btn btn-secondary dropdown-toggle" type="button" ID="DropDownList_Reason"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" runat="server">
                     <asp:ListItem>מחלה ממארת</asp:ListItem>
                     <asp:ListItem>מחלות מעי דלקתיות</asp:ListItem>

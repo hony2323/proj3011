@@ -18,7 +18,12 @@ namespace project0311
 
         public void ContinueBtn_Clicked(object sender, EventArgs e)
         {
-            
+            string action = DropDownList_Action.SelectedValue;
+            string reason = DropDownList_Reason.SelectedValue;
+
+            Session["action"] = action;
+            Session["reason"] = reason;
+
             Response.Redirect("documents1.aspx");
         }
 

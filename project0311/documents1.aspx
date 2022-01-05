@@ -36,6 +36,7 @@
     <style>
 	.container {
   max-width: 960px;
+  background-color: rgba(255, 255, 255, 0.50)
 }
 
 .border-top { border-top: 1px solid #e5e5e5; }
@@ -52,6 +53,13 @@
             cursor:pointer;
 
         }
+                body {
+            background: url('https://www.קנאביס.com/wp-content/uploads/2011/10/LNS_15-04-2011_EGN_03_dope-leaf-LNS1503_t325.jpg') fixed;
+            background-size: cover;
+
+        }
+
+
 
     </style>
   </head>
@@ -73,12 +81,12 @@
             <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="firstName">פעולה</label>
-                <input type="text" class="form-control" value="חידוש רישיון" >
+                <input runat="server" id="Action" type="text" class="form-control" value="חידוש רישיון" >
                  
               </div>
               <div class="col-md-6 mb-3">
                 <label for="lastName">Disease type</label>
-                <input type="text" class="form-control" value=" מחלה ממארת"   >
+                <input runat="server" id="Reason" type="text" class="form-control" value=" מחלה ממארת"   >
                
               </div>
             </div>

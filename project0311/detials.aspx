@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="form1.aspx.cs" Inherits="project0311.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="detials.aspx.cs" Inherits="project0311.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -12,7 +12,7 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
-    <!------ Include the above in your HEAD tag ---------->
+    <!------ Include the above in your HEAD tag detials  ---------->
 
     <style>
         body {

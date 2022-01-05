@@ -13,5 +13,16 @@ namespace project0311
         {
 
         }
+
+        protected void ReturnHome(object sender, EventArgs e)
+        {
+            Response.Redirect("home.aspx");
+        }
+        protected void ApplicationStatus(object sender, EventArgs e)
+        {
+
+        }
+
+
     }
 }
