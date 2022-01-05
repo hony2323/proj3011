@@ -293,3 +293,5 @@ C:\Users\User\Desktop\מחשב שלי\לימודים\Technion\פרוייקט\פ�
 C:\Users\User\Desktop\מחשב שלי\לימודים\Technion\פרוייקט\פרויקט מור קנביס\חוני\project0311\obj\Debug\project0311.csproj.CopyComplete
 C:\Users\User\Desktop\מחשב שלי\לימודים\Technion\פרוייקט\פרויקט מור קנביס\חוני\project0311\obj\Debug\project0311.dll
 C:\Users\User\Desktop\מחשב שלי\לימודים\Technion\פרוייקט\פרויקט מור קנביס\חוני\project0311\obj\Debug\project0311.pdb
+C:\Users\Hony\Desktop\project0311\project0311\bin\YamlDotNet.dll
+C:\Users\Hony\Desktop\project0311\project0311\bin\YamlDotNet.xml

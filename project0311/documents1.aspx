@@ -151,7 +151,7 @@
             </div>
         
             <hr class="mb-4">
-              <asp:Button runat="server"  OnClick="Do_som" Text="שלח" style="width:200px"  CssClass="btn-outline-primary"/>
+              <asp:Button runat="server"  OnClick="SubmitBtn_Click" Text="שלח" style="width:200px"  CssClass="btn-outline-primary"/>
           </form>
         </div>
       </div>
