@@ -96,7 +96,7 @@
               
             </div>
 
-            <div class="mb-3">
+            <div runat="server" class="mb-3" id="AllDocs">
             <div class="input_div">
                 <input type="file" id="file1" class="file" />
                 <label for="file1">(שם קובץ)</label>
@@ -113,6 +113,8 @@
                 <input type="file" id="file4" class="file" />
                 <label for="file4">(שם קובץ)</label>
             </div>
+
+            <asp:PlaceHolder ID="docsPlaceHolder" runat="server"></asp:PlaceHolder>
             </div>
 
             <div 
@@ -127,11 +129,6 @@
              
             </div>
 
-            <div class="row">
-               
-             
-           
-            </div>
          
             
             <hr class="mb-4">
